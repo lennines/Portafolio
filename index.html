@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div-0">
+        <header class="cabeza">
+            <img src="img/logo.svg" alt="logo" class="logo">
+        </header>
+       <section class="seccion">
+            <div class="div-1">
+                <textarea cols="30" rows="10" placeholder="Ingrese el texto aqui" class="texto-1"></textarea>
+                <div class="bot">
+                    <img src="img/alerta.svg" alt="alerta" class="alert">
+                    <p>Solo letras sin minúsculas y sin acentos</p>
+                </div>
+            </div>
+            <div class="div-3">
+                    <input type="button" onclick="btnEncriptar()" class="encriptar" value="Encriptar">
+                    <input type="button" onclick="btnDesencriptar()" class="desencriptar" value="Desencriptar">
+            </div>
+        </section>
+    </div>
+    <div class="div-2">
+        <textarea name="out" id="texto2" cols="30" rows="10" placeholder="Ningun mensaje fue encontrado&#10 Ingrese el texto que desea encriptar o desencriptar" class="texto2" ></textarea>
+        <div class="sub-div">
+            <input type="button" class="copy" onclick="copiar()" value="Copiar">
+        </div>
+    </div>
+    <footer>
+        <h1>By:Lennin Estic Castilla Garcia</h1>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
